@@ -32,7 +32,7 @@ public class AsciiManager {
 				if(letter  >= 65 && letter <= 90) {
 					builder.append(alphabet.getDatas(i).substring((letter - 65)*width,(letter - 65)*width + width)); //ascci reprensentation ascii	
 				}else {
-					builder.append(alphabet.getDatas(i).substring(width*96,(width * 92) + width)); //
+					builder.append(alphabet.getDatas(i).substring(width*26,(width * 26) + width)); //
 				}
 			}
 			builder.append("\n");	
@@ -59,7 +59,7 @@ public class AsciiManager {
 				if(letter  >= 34 && letter <= 126) {
 					builder.append(alphabet.getDatas(i).substring((letter - 34)*width,(letter - 34)*width + width)); //ascci reprensentation ascii	
 				}else {
-					builder.append(alphabet.getDatas(i).substring(width*26,(width * 26) + width)); //26=?
+					builder.append(alphabet.getDatas(i).substring(width*90,(width * 90) + width)); //26=?
 				}
 			}
 			builder.append("\n");	
